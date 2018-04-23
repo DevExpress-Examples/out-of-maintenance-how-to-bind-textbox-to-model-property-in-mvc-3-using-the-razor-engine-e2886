@@ -1,0 +1,40 @@
+@using DevExpress.Web.Mvc.UI
+@using System.Web.UI.WebControls
+@inherits System.Web.Mvc.WebViewPage<RazorSupport.Models.MyModel>
+@{
+    ViewBag.Title = "DateEdit";
+}
+@using (Html.BeginForm("PostValues", "Home", FormMethod.Post, new { style = "background-color: #EEE; border: 1px solid black; width: 250px; padding: 4px;" })) {
+    <strong style="color: Blue">@ViewBag.Message</strong><br />
+    
+    <table style="width: 100%">
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                @Html.DevExpress().TextBox(settings => {
+               settings.Name = "Name";
+               settings.Width = Unit.Percentage(100);
+           }).Bind(Model.Name).GetHtml()
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date:
+            </td>
+            <td>
+                @Html.DevExpress().DateEdit(settings => {
+               settings.Name = "OrderDate";
+           }).Bind(Model.OrderDate).GetHtml()
+            </td>
+        </tr>
+    </table>
+    
+    @Html.DevExpress().Button(settings => {
+    settings.Name = "btn";
+    settings.Text = "Submit form";
+    settings.UseSubmitBehavior = true;
+}).GetHtml()
+
+}
