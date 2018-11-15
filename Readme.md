@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/RazorSupport/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/RazorSupport/Controllers/HomeController.vb))
+* [MyModel.cs](./CS/RazorSupport/Models/MyModel.cs) (VB: [MyModel.vb](./VB/RazorSupport/Models/MyModel.vb))
+* [_ViewStart.cshtml](./CS/RazorSupport/Views/_ViewStart.cshtml)
+* [TextBox.cshtml](./CS/RazorSupport/Views/Home/TextBox.cshtml)
+* [_Layout.cshtml](./CS/RazorSupport/Views/Shared/_Layout.cshtml)
+<!-- default file list end -->
 # How to bind TextBox to Model property in MVC 3 using the Razor engine
 
 
