@@ -9,7 +9,7 @@
 <!-- default file list end -->
 # How to bind TextBox to Model property in MVC 3 using the Razor engine
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e2886)**
+**[[Run Online]](https://codecentral.devexpress.com/e2886/)**
 <!-- run online end -->
 
 
