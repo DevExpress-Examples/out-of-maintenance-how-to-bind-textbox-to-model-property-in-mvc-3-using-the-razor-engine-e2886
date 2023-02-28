@@ -35,28 +35,28 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Printing.v15.1.Core">
+    <Reference Include="DevExpress.Printing.v14.1.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Data.v15.1">
+    <Reference Include="DevExpress.Data.v14.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.SpellChecker.v15.1.Core, Version=15.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.SpellChecker.v14.1.Core, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Web.ASPxThemes.v15.1">
+    <Reference Include="DevExpress.Web.ASPxThemes.v14.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Web.Mvc.v15.1">
+    <Reference Include="DevExpress.Web.Mvc.v14.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Office.v15.1.Core">
+    <Reference Include="DevExpress.Office.v14.1.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v15.1.Core">
+    <Reference Include="DevExpress.RichEdit.v14.1.Core">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Web.v15.1">
+    <Reference Include="DevExpress.Web.v14.1">
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
