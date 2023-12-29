@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128566125/14.1.3%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2886)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -13,9 +8,6 @@
 * [_Layout.cshtml](./CS/RazorSupport/Views/Shared/_Layout.cshtml)
 <!-- default file list end -->
 # How to bind TextBox to Model property in MVC 3 using the Razor engine
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e2886/)**
-<!-- run online end -->
 
 
 <p>The example is based on the <a href="https://www.devexpress.com/Support/Center/p/E2837">How to use the Razor view engine with DevExpress Extensions for ASP.NET MVC</a> example. It demonstrates how to bind Model property to TextBox extension and pass the entered value to a controller's action.</p>
